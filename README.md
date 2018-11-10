@@ -46,7 +46,8 @@ swipe:X1,Y1,X2,Y2
 - Swipe(vuốt) từ tọa độ XY1 đến XY2 Ví dụ: swipe:100,200,300,400
 
 text:yourtext/random,min,max
-- Nhập vào một đoạn text hoặc tạo ngẫu nhiêu một đoạn text Ví dụ: text:my name hoặc text:random,2,8
+- Nhập vào một đoạn text hoặc tạo ngẫu nhiêu một đoạn text 
+- Ví dụ: text:my name hoặc text:random,2,8
 
 email:random/random@domain
 - Tạo ngẫu nhiên một địa chỉ email Ví dụ: email:random hoặc email:random@gmail.com
@@ -55,7 +56,8 @@ phone:xxx-length
 - Tạo ngẫu nhiên một số điện thoại theo đầu số Ví dụ: phone:096-10
 
 password:symbol,min,max
-- Tạo ngẫu nhiên mật khẩu theo ký tự đã cho và độ dài mật khẩu Ví dụ: password:abcdexzy124,6,8
+- Tạo ngẫu nhiên mật khẩu theo ký tự đã cho và độ dài mật khẩu
+- Ví dụ: password:abcdexzy124,6,8
 
 firstname:random
 - Tạo ngẫu nhiên First Name
@@ -76,7 +78,8 @@ paste:text
 - Nhập lại password, email đã nhập trước đó Ví dụ: paste:text
 
 layout:
-- Đọc thông tin giao diện(chữ) ở màn hình điện thoại lúc gọi lệnh Ví dụ: layout:
+- Đọc thông tin giao diện(chữ) ở màn hình điện thoại lúc gọi lệnh
+- Ví dụ: layout:
 
 clicktext:text|true/false
 - Click vào text có trên màn hình điện thoại. Giá trị “true” click vào text có trên màn hình mà không yêu cầu phải đúng 100%. Giá trị “false” phải click đúng vào text yêu cầu(Khớp 100% và phân biệt hoa thường).
